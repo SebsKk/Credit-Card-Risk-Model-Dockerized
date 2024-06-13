@@ -2,7 +2,7 @@ import pandas as pd
 import json
 import numpy as np
 
-data = pd.read_csv("C:\\Users\\kaczm\\Desktop\\default_of_credit_card_clients.csv")
+data = pd.read_csv({path_to_data})
 data.replace([np.inf, -np.inf], np.nan, inplace=True)
 
 
